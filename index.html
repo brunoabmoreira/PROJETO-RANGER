@@ -8,11 +8,23 @@
 
     <style>
         body {
-            background-color: #002060;
+            background-color: #3d5c9b;
             background-image: url("imagens/wallpaperranger-hor1.png");
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;
+            background-blend-mode: soft-light;
+            background-attachment: fixed;
+
+            /* 
+            shorthand:
+            
+            background: color > image > position > repeat > size > attachment 
+
+            background: #3d5c9b url("imagens/wallpaperranger-hor1.png") center center no-repeat cover fixed;
+
+            obs:. o size ainda não funciona no shorthard, declarar fora do shorthand
+            */
         }
 
         header {
