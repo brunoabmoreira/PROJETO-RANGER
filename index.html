@@ -11,6 +11,12 @@
         @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 
+        *{
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
         body {
             background-color: #3A7CA5;
             background-size: cover;
@@ -36,29 +42,20 @@
             background-color: #2F6690;
             color: #D9DCD6;
             width: 1000px;
-            padding: 5px;
+            padding: 50px 0px 0px 0px;
             margin: auto;
             text-align: center;
-            border-radius: 10px 10px 10px 10px;
+            border-radius: 10px 10px 0px 0px;
         }
 
-        #paginas {
-            background-color: burlywood;
-            text-align: center;
-            width: 1000px;
-            padding: 0px;
-            margin: auto;
-        }
         #textoprevio {
+            width: 1000px;
+            padding: 5px 0px 5px 0px;
             color: #D9DCD6;
             background-color: #16425B;
             font-family: 'Staatliches', cursive;
-            font-style: normal;
             text-align: center;
-            width: 1000px;
-            padding: 0px;
             margin: auto;
-            border-radius: 10px 10px 10px 10px;
         }
 
         h3, p {
@@ -68,29 +65,28 @@
         }
 
         #destaque {
-            display: inline-block;
-            background-color: #81C3D7;
             font-size: 20px;
             font-style: italic;
             margin: auto;
             width: 1000px;
         }
 
+        #enfeitedestaque {
+            margin: auto;
+            padding: 0px 0px 0px 200px;
+            width: 10px;
+            height: 100px;
+            display: table-cell;
+            background-color: #2F6690;
+        }
+
         #textodestaque {
-            margin: 10px 0px 10px 0px;
+            margin: auto;
             width: 700px;
             height: 100px;
             text-align: justify;
             display: table-cell;
             background-color: thistle;
-        }
-
-        #enfeitedestaque {
-            margin: 10px 0px 10px 0px;
-            width: 100px;
-            height: 100px;
-            display: table-cell;
-            background-color: #2F6690;
         }
 
         #teste {
@@ -104,7 +100,6 @@
             width: 1000px;
             padding: 0px;
             margin: auto;
-            border-radius: 10px 10px 0px 0px;
             box-shadow: rgba(0, 0, 0, 0.432) 10px 0px 14px -6px;
         }
 
@@ -114,6 +109,7 @@
             width: 1000px;
             padding: 0px;
             margin: auto;
+            box-shadow: rgba(0, 0, 0, 0.432) 10px 0px 14px -6px;
         }
 
         #fotos {
@@ -157,7 +153,7 @@
 
         #anos80 {
             background-color: #2F6690;
-            background-image: url('imagens/ranger1gen4.PNG');
+            background-image: url('imagens/ranger1gen5.jpg');
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-position: center center;
@@ -181,6 +177,20 @@
             margin: auto;
         }
 
+        #anos98 {
+            background-color: #2F6690;
+            background-image: url('imagens/ranger3gen.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+            margin: auto;
+            width: 1000px;
+            height: 400px;
+            padding: 0px;
+            margin: auto;
+        }
+
+
         #textoini > p {
             text-align: justify;
         }
@@ -194,9 +204,22 @@
             height: 35px;
             background-image: url('imagens/logomin.fw.png');
             background-repeat: no-repeat;
-            background-position: right;
-            
+            background-position: right;   
         }
+
+        blockquote.quote {
+            padding:20px 30px;
+            text-align:left;
+            background: #81c3d760 no-repeat right;
+            color: #070707;
+            font-size: 20px;line-height: 1.4;
+            font-style: italic;
+            border: 0;
+            border-radius: 10px;
+            margin: 50px 50px 50px 50px;
+            display: block;
+            box-shadow: 11px 10px 0px #16425b65;
+}
     </style>
 </head>
 <body>
@@ -230,14 +253,12 @@
                     </p>
                 </div>
                 <p>
-                    A Ranger chegou em março de 1983 já como modelo 1984, tendo sua primeira geração sendo fabricada entre 1983 e 1988. Inicialmente oferecida só com cabine simples e dois tamanhos de caçamba (1,5 m e 1,8 m), a picape tinha possibilidade de dois motores a gasolina (2,0 e o nosso conhecido 2,3, que era produzido em Taubaté e exportado para equipar a picape fabricada nos EUA). Ambos vinham com câmbio manual de 4 marchas ou um automático, disponível como opcional para as unidades 2,3-litros. Pela demanda do mercado, alguns meses depois chegava a opção de tração 4×4 e dois motores novos: um 2.,2 Diesel e o 2,8 V-6 (2,9 a partir de 1986, quando deixou de ser a carburador e passou a usar a injeção eletrônica, um dos sinônimos de modernidade automobilística da época).
+                    A Ranger chegou em março de 1983 já como modelo 1984, tendo sua primeira geração sendo fabricada entre 1983 e 1988. Inicialmente oferecida só com cabine simples e dois tamanhos de caçamba (1,5 m e 1,8 m), a picape tinha possibilidade de dois motores a gasolina (2.0 e o nosso conhecido 2.3, que era produzido em Taubaté e exportado para equipar a picape fabricada nos EUA). Ambos vinham com câmbio manual de 4 marchas ou um automático, disponível como opcional para as unidades 2.3 litros. Pela demanda do mercado, alguns meses depois chegava a opção de tração 4x4 e dois motores novos: um 2.2 Diesel e o 2.8 V-6 (2.9 a partir de 1986, quando deixou de ser a carburador e passou a usar a injeção eletrônica, um dos sinônimos de modernidade automobilística da época).
                 </p>
-                <section id="destaque">
-                <div id="enfeitedestaque"></div>
-                <div id="textodestaque">A Ranger 1998 representava uma alteração radical de proposta: em vez do “automóvel com caçamba”, uma picape em sentido estrito, a começar pela altura do solo</div>
-                </section>
+                <p>
+                    A Ranger de primeira geração passaria por um grande facelift em 1989 com melhorias no quadro e revisões de estilo tanto para o exterior quanto para o interior. Do lado de fora, faróis nivelados, nova grade, capô e para-lamas dianteiros enfeitaram as coisas, enquanto a cabine desfrutava de um novo painel. Um quatro de 2,3 litros com 100 cavalos e 133 libras-pés de torque serviu como a opção de potência básica conectada a um manual de cinco marchas ou automático de quatro velocidades disponível.
+                </p>
                 
-                    
                 <div id="fotosunicas">
                     <img src="imagens/1989-rangerfacelift.jpg" alt="ford ranger 1989" id="fotosunicas">
                 </div>
@@ -253,18 +274,52 @@
 
         <section id="textos">
             <p>
-                Após sofrer uma reestilização em 1989, a primeira geração se despedia em 1993, para dar lugar à segunda, totalmente renovada e ainda mais moderna. Essa segunda geração deu as caras no Brasil no Salão do Automóvel de 1994, e foi lançada oficialmente em fevereiro de 1995 em duas versões (XL de cabine simples e STX cabine estendida, com dois pequenos bancos traseiros retráteis), ambas já equipadas com um vigoroso motor V-6 4,0, freios ABS traseiros de série e cerca de 650 kg de capacidade de carga. Depois de algum tempo, chegava a versão intermediária XLT e, junto com ela, uma reformulação interna completa, com novas laterais de porta, painel, volante, instrumentação, entre outros. Na época, um dos destaques da Ranger era aliar muito bem o conforto, luxo e dirigibilidade dignos de um carro de passeio com a robustez de uma picape de trabalho, garantindo um grande diferenciaor com relação à concorrência.
+                A Ford lançou o Ranger de segunda geração em 1992 como um modelo de 1993 com um design renovado e versão Splash disponível. O visual quadrado foi substituído por uma chapa metálica mais arredondada para uma aparência mais elegante. O Splash apresentou ainda mais impacto visual com a caçamba step side, com as laterais abauladas, rodas cromadas, suspensão inferior e decalques especiais afixados nas laterais e na tampa traseira.
             </p>
             <div id="fotosunicas">
-                <img src="imagens/ranger2gen-01.jpg" alt="ford ranger 1989" id="fotosunicas">
+                <img src="imagens/rangersplashamarela.jpg" alt="ford ranger 1989" id="fotosunicas">
             </div>
             <div id="comentariosunicos">
                 <p id="legenda">
-                    Ford Ranger 2ª geração, modelo americano 1993.
+                    Ford Ranger Splash.
                 </p>
             </div>
             <p>
-                Até então, a Ranger era produzida na fábrica de Dearborn, Michigan, nos EUA, e importada para a América Latina. Mas isso mudou em 1997, quando a picape ganhou também nacionalidade argentina, passando a ser produzida na fábrica de General Pacheco, região metropolitana de Buenos Aires. A primeira renovação visual depois da sua chegada ao Brasil veio para a linha 1998, quase que simultaneamente com o mercado dos EUA, e aqui foi onde a Ranger teve um realce no seu lado “bruto”: além do aumento considerável na altura do solo, ela carregava mais carga (até 1.100 kg dependendo da versão), passou a ser oferecida com uma legítima cabine dupla, e agora tinha opção de tração nas quatro rodas e motor Diesel para o mercado brasileiro.
+                Essa segunda geração deu as caras no Brasil no Salão do Automóvel de 1994, e foi lançada oficialmente no Brasil em fevereiro de 1995 em duas versões (XL de cabine simples e STX cabine estendida, com dois pequenos bancos traseiros retráteis), ambas já equipadas com um vigoroso motor V-6 4.0, freios ABS traseiros de série e cerca de 650kg de capacidade de carga. Depois de algum tempo, chegava a versão intermediária XLT e, junto com ela, uma reformulação interna completa, com novas laterais de porta, painel, volante, instrumentação, entre outros. Na época, um dos destaques da Ranger era aliar muito bem o conforto, luxo e dirigibilidade dignos de um carro de passeio com a robustez de uma picape de trabalho.
+            </p>
+            <div id="fotosunicas">
+                <img src="imagens/range2gen.jpg" alt="ford ranger 1989" id="fotosunicas">
+            </div>
+            <div id="comentariosunicos">
+                <p id="legenda">
+                    Ford Ranger 2ª geração.
+                </p>
+            </div>
+            <section id="anos90"></section>
+            <p>
+                Até então, a Ranger era produzida na fábrica de Dearborn, Michigan, nos EUA, e importada para a América Latina. Mas isso mudou em 1997, quando a picape ganhou também nacionalidade argentina, passando a ser produzida na fábrica de General Pacheco, região metropolitana de Buenos Aires. A primeira renovação visual depois da sua chegada ao Brasil veio para a linha 1998, quase que simultaneamente com o mercado dos EUA, e aqui foi onde a Ranger teve um realce no seu lado “bruto”, passou a ser oferecida com uma legítima cabine dupla, e agora tinha opção de tração nas quatro rodas e motor Diesel para o mercado brasileiro.
+            </p>
+            <div id="fotos">
+                <img src="imagens/ranger1998.jpg" alt="ford courier" id="fotos">
+            </div>
+            <div id="fotos">
+                <img src="imagens/ranger 1998-4.jpg" alt="ford ranger 1 gen" id="fotos">
+            </div>
+            <div id="comentarios1">
+                <p id="legenda">
+                    Ford Ranger modelo 1998, cabine simples.
+                </p>
+            </div>
+            <div id="comentarios2">
+                <p id="legenda">
+                    Ford Ranger modelo 1998, cabine dupla.
+                </p>
+            </div>
+            <blockquote class="quote">
+                <p>O modelo 1998 adotava o novo estilo norte-americano, suspensão elevada e dois tamanhos de caçamba; logo depois vinha a cabine dupla, que os EUA não tiveram</p>
+            </blockquote>
+            <p>
+                Lançada em março de 1998, a nova Ranger representava uma alteração radical de proposta: em vez do “automóvel com caçamba”, era agora uma picape em seu sentido estrito — a começar pela maior altura do solo, padronizada em toda a linha conforme a 4×4 norte-americana. A capacidade de carga crescia (entre 740 e 1.100 kg de acordo com a versão) e havia opções de tração nas quatro rodas e motor turbodiesel. A variedade era um destaque: três motores, dois comprimentos de caçamba (1,8 e 2,1 metros, sem contar a de 1,5 m para cabine dupla, lançada mais tarde), duas versões de acabamento (básica e XLT) e duas de tração.
             </p>
             <p>
                 Mecanicamente ela se tornou mais diversificada: além do já presente 4.0 V6, havia dois 2.5, um movido a gasolina e o outro a diesel, além da opção de tração traseira ou integral (exclusiva para as versões 2.5 diesel e V-6). As suspensões, concebidas desde o início para ter o máximo de robustez, passavam por melhorias na dianteira, que passou a ter sistema independente com braços sobrepostos.
@@ -272,8 +327,12 @@
             <p>
                 A próxima novidade veio em maio de 2001, quando o 2.5 a gasolina deu lugar ao totalmente novo 2.3 16V, e o 4.0 V-6 se mantinha, mas agora com arquitetura comando de válvulas no cabeçotes, o que gerou um importane aumento de 50 cv de potência, passando a entregar 210 cv. No ano seguinte era a vez da novidade nas versões Diesel: sai de cena o 2.5 e chega o 2.8 Power Stroke, que tinha como opcional a novidade do turbocompressor com turbina de geometria variável, chamada abreviadamente de VGT (de variable geometry turbine).
             </p>
-
-            <section id="anos90"></section>
+            
+            <section id="anos98"></section>
+           
+            <p>
+                Mas o tempo passou, e era hora da Ranger se modernizar novamente, acompanhando a concorrência. Em agosto de 2004 chegava a linha 2005 da picape, com visual frontal e traseiro remodelados para se aproximar da então identidade visual da marca para veículos maiores, além de leves mudanças no interior. Até então, mesmo passando por uma reestilização, sua mecânica permanecia inalterada (2.3 16V e 4.0 V-6 a gasolina, além do 2.8 Diesel), mas cerca de seis meses depois a “nova” picape ficaria desatualizada, chegava o moderno 3.0 Power Stroke Electronic Diesel, mais econômico, potente e, principalmente, moderno quando comparado ao seu antecessor 2.8. O 3.0 vinha com injeção eletrônica de duto único, 16 válvulas e expressivos 163 cv, que atendia às novas normas de emissões para utilitários. O painel recebia novo quadro de instrumentos. O motor 2.3 a gasolina ganhava potência e torque, para 150 cv e 22 m.kgf, pouco depois.
+            </p>
             
         </section>
     </main>
