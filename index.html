@@ -7,9 +7,12 @@
     <title>História da Ford Ranger no Brasil</title>
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
         body {
-            background-color: #3d5c9b;
-            background-image: url("imagens/wallpaperranger-hor1.png");
+            background-color: #3A7CA5;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;
@@ -28,11 +31,15 @@
         }
 
         header {
-            background-color: rgb(120, 120, 233);
+            font-family: 'Bebas Neue', cursive;
+            font-size: 2em;
+            background-color: #2F6690;
+            color: #D9DCD6;
             width: 1000px;
-            padding: 0px;
+            padding: 5px;
             margin: auto;
             text-align: center;
+            border-radius: 10px 10px 10px 10px;
         }
 
         #paginas {
@@ -43,19 +50,25 @@
             margin: auto;
         }
         #textoprevio {
-            background-color: rgb(235, 170, 229);
+            color: #D9DCD6;
+            background-color: #16425B;
+            font-family: 'Staatliches', cursive;
+            font-style: normal;
             text-align: center;
             width: 1000px;
             padding: 0px;
             margin: auto;
+            border-radius: 10px 10px 10px 10px;
         }
+
         h3, p {
+            font-family: 'Fira Sans', sans-serif;
             margin: 0px;
             padding: 10px;
         }
         
         #textoini {
-            background-color: white;
+            background-color: #D9DCD6;
             text-align: center;
             width: 1000px;
             padding: 0px;
@@ -65,7 +78,7 @@
         }
 
         #textos {
-            background-color: white;
+            background-color: #D9DCD6;
             text-align: center;
             width: 1000px;
             padding: 0px;
@@ -79,17 +92,54 @@
             margin: auto;
         }
 
-        #comentarios {
+        #fotosunicas {
+            width: 400px;
+            padding: 0px 0px 0px 0px;
+            margin: auto;
+        }
+
+        #comentarios1 {
+            display: inline-block;
+            width: 400px;
+            padding: 0px 45px 0px 0px;
+            margin: 0px;
+            font-size: 15px;
+            font-style: italic;
+        }
+
+        #comentarios2 {
             display: inline-block;
             width: 400px;
             padding: 0px 40px 0px 0px;
             margin: 0px;
+            font-size: 15px;
+            font-style: italic;
+        }
+
+        #comentariosunicos {
+            width: 400px;
+            margin: auto;
+            padding: 0px;
+            font-size: 15px;
             font-style: italic;
         }
 
         #anos80 {
-            background-color: chartreuse;
+            background-color: #2F6690;
             background-image: url('imagens/firstgenwallpaper.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+            margin: auto;
+            width: 1000px;
+            height: 400px;
+            padding: 0px;
+            margin: auto;
+        }
+
+        #anos90 {
+            background-color: #2F6690;
+            background-image: url('imagens/wallpaperranger2gen.jpg');
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-position: center center;
@@ -107,11 +157,21 @@
         #textos > p {
             text-align: justify;
         }
+
+        #logo {
+            width: 1000px;
+            height: 35px;
+            background-image: url('imagens/logomin.fw.png');
+            background-repeat: no-repeat;
+            background-position: right;
+            
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Ford Ranger no Brasil</h1>
+        <div id="logo"></div>
     </header>
     <main>
         <div id="textoprevio">
@@ -119,7 +179,7 @@
         </div>
         <section id="textoini">
             <p>
-                As crises do petróleo de 1973 e 1979 foram decisivas para o surgimento e desenvolvimento de picapes menores e mais econômicas. Com o preço da gasolina nas alturas e a entrada de limites legais para o consumo de combustível (programa CAFE), os grandes carros com motor V8 perderam espaço e chegaram perto da extinção. A Toyota e a Datsun, Fabricada pela Nissan, já produziam picapes mais compactas e econômicas na época. A Ford então faz acordo com a Mazda e a picape Mazda B-Series é vendida como Ford Courier (foto abaixo)
+                As crises do petróleo de 1973 e 1979 foram decisivas para o surgimento e desenvolvimento de picapes menores e mais econômicas. Com o preço da gasolina nas alturas e a entrada de limites legais para o consumo de combustível (programa CAFE), os grandes carros com motor V8 perderam espaço e chegaram perto da extinção. A Toyota e a Datsun, Fabricada pela Nissan, já produziam picapes mais compactas e econômicas na época. A Ford então faz acordo com a Mazda e a picape Mazda B-Series é então vendida como Ford Courier.
             </p>
 
                 <div id="fotos">
@@ -128,14 +188,25 @@
                 <div id="fotos">
                     <img src="imagens/Ranger1gen3.png" alt="ford ranger 1 gen" id="fotos">
                 </div>
-                <div id="comentarios">
+                <div id="comentarios1">
                     <p id="legenda">
                         Ford Courier modelo 1974, antecessora da Ford Ranger
                     </p>
                 </div>
-                <div id="comentarios">
+                <div id="comentarios2">
                     <p id="legenda">
                         Primeira geração da Ford Ranger Americana
+                    </p>
+                </div>
+                <p>
+                    A Ranger chegou em março de 1983 já como modelo 1984, tendo sua primeira geração sendo fabricada entre 1983 e 1988. Inicialmente oferecida só com cabine simples e dois tamanhos de caçamba (1,5 m e 1,8 m), a picape tinha possibilidade de dois motores a gasolina (2,0 e o nosso conhecido 2,3, que era produzido em Taubaté e exportado para equipar a picape fabricada nos EUA). Ambos vinham com câmbio manual de 4 marchas ou um automático, disponível como opcional para as unidades 2,3-litros. Pela demanda do mercado, alguns meses depois chegava a opção de tração 4×4 e dois motores novos: um 2.,2 Diesel e o 2,8 V-6 (2,9 a partir de 1986, quando deixou de ser a carburador e passou a usar a injeção eletrônica, um dos sinônimos de modernidade automobilística da época).
+                </p>
+                <div id="fotosunicas">
+                    <img src="imagens/1989-rangerfacelift.jpg" alt="ford ranger 1989" id="fotosunicas">
+                </div>
+                <div id="comentariosunicos">
+                    <p id="legenda">
+                        Ford Ranger 1ª geração, modelo 1989, após o primeiro facelift.
                     </p>
                 </div>
             
@@ -145,8 +216,28 @@
 
         <section id="textos">
             <p>
-                As crises do petróleo de 1973 e 1979 foram decisivas para o surgimento e desenvolvimento de picapes menores e mais econômicas. Com o preço da gasolina nas alturas e a entrada de limites legais para o consumo de combustível (programa CAFE), os grandes carros com motor V8 perderam espaço e chegaram perto da extinção. A Toyota e a Datsun, Fabricada pela Nissan, já produziam picapes mais compactas e econômicas na época. A Ford então faz acordo com a Mazda e a picape Mazda B-Series é vendida como Ford Courier (foto abaixo)
+                Após sofrer uma reestilização em 1989, a primeira geração se despedia em 1993, para dar lugar à segunda, totalmente renovada e ainda mais moderna. Essa segunda geração deu as caras no Brasil no Salão do Automóvel de 1994, e foi lançada oficialmente em fevereiro de 1995 em duas versões (XL de cabine simples e STX cabine estendida, com dois pequenos bancos traseiros retráteis), ambas já equipadas com um vigoroso motor V-6 4,0, freios ABS traseiros de série e cerca de 650 kg de capacidade de carga. Depois de algum tempo, chegava a versão intermediária XLT e, junto com ela, uma reformulação interna completa, com novas laterais de porta, painel, volante, instrumentação, entre outros. Na época, um dos destaques da Ranger era aliar muito bem o conforto, luxo e dirigibilidade dignos de um carro de passeio com a robustez de uma picape de trabalho, garantindo um grande diferenciaor com relação à concorrência.
             </p>
+            <div id="fotosunicas">
+                <img src="imagens/ranger2gen-01.jpg" alt="ford ranger 1989" id="fotosunicas">
+            </div>
+            <div id="comentariosunicos">
+                <p id="legenda">
+                    Ford Ranger 2ª geração, modelo americano 1993.
+                </p>
+            </div>
+            <p>
+                Até então, a Ranger era produzida na fábrica de Dearborn, Michigan, nos EUA, e importada para a América Latina. Mas isso mudou em 1997, quando a picape ganhou também nacionalidade argentina, passando a ser produzida na fábrica de General Pacheco, região metropolitana de Buenos Aires. A primeira renovação visual depois da sua chegada ao Brasil veio para a linha 1998, quase que simultaneamente com o mercado dos EUA, e aqui foi onde a Ranger teve um realce no seu lado “bruto”: além do aumento considerável na altura do solo, ela carregava mais carga (até 1.100 kg dependendo da versão), passou a ser oferecida com uma legítima cabine dupla, e agora tinha opção de tração nas quatro rodas e motor Diesel para o mercado brasileiro.
+            </p>
+            <p>
+                Mecanicamente ela se tornou mais diversificada: além do já presente 4.0 V6, havia dois 2.5, um movido a gasolina e o outro a diesel, além da opção de tração traseira ou integral (exclusiva para as versões 2.5 diesel e V-6). As suspensões, concebidas desde o início para ter o máximo de robustez, passavam por melhorias na dianteira, que passou a ter sistema independente com braços sobrepostos.
+            </p>
+            <p>
+                A próxima novidade veio em maio de 2001, quando o 2.5 a gasolina deu lugar ao totalmente novo 2.3 16V, e o 4.0 V-6 se mantinha, mas agora com arquitetura comando de válvulas no cabeçotes, o que gerou um importane aumento de 50 cv de potência, passando a entregar 210 cv. No ano seguinte era a vez da novidade nas versões Diesel: sai de cena o 2.5 e chega o 2.8 Power Stroke, que tinha como opcional a novidade do turbocompressor com turbina de geometria variável, chamada abreviadamente de VGT (de variable geometry turbine).
+            </p>
+
+            <section id="anos90"></section>
+            
         </section>
     </main>
 </body>
