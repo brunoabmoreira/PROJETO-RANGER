@@ -5,287 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>História da Ford Ranger no Brasil</title>
-
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
-
-        *{
-            margin: 0px;
-            padding: 0px;
-            border: 0px;
-        }
-
-        body, html {
-            min-height: 100vh;
-            background-color: #3A7CA5;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-blend-mode: soft-light;
-            background-attachment: fixed;
-
-            /* 
-            shorthand:
-            
-            background: color > image > position > repeat > size > attachment 
-
-            background: #3d5c9b url("imagens/wallpaperranger-hor1.png") center center no-repeat cover fixed;
-
-            obs:. o size ainda não funciona no shorthard, declarar fora do shorthand
-            */
-        }
-
-        header {
-            font-variant: small-caps;
-            font-family: 'Bebas Neue', cursive;
-            font-size: 2em;
-            background-color: #2F6690;
-            color: #D9DCD6;
-            width: 55%;
-            padding: 50px 0px 0px 0px;
-            margin: auto;
-            text-align: center;
-            border-radius: 10px 10px 0px 0px;
-            min-width: 400px
-        }
-
-        section {
-            min-width: 400px;
-        }
-
-        #textoprevio {
-            width: 55%;
-            padding: 5px 0px 5px 0px;
-            color: #D9DCD6;
-            background-color: #16425B;
-            font-family: 'Staatliches', cursive;
-            text-align: center;
-            margin: auto;
-            min-width: 400px
-        }
-
-        h3, p {
-            font-family: 'Fira Sans', sans-serif;
-            margin: 0px;
-            padding: 10px;
-        }
-
-        #destaque {
-            font-size: 20px;
-            font-style: italic;
-            margin: auto;
-            width: 55%;
-        }
-
-        #enfeitedestaque {
-            margin: auto;
-            padding: 0px 0px 0px 200px;
-            width: 10px;
-            height: 100px;
-            display: table-cell;
-            background-color: #2F6690;
-        }
-
-        #textodestaque {
-            margin: auto;
-            width: 700px;
-            height: 100px;
-            text-align: justify;
-            display: table-cell;
-            background-color: thistle;
-        }
-
-        #teste {
-            border: 0px 0px 50px 0px;
-            padding: 0px;
-        }
-        
-        #textoini {
-            background-color: #D9DCD6;
-            text-align: center;
-            width: 55%;
-            padding: 0px;
-            margin: auto;
-            box-shadow: rgba(0, 0, 0, 0.432) 10px 0px 14px -6px;
-        }
-
-        #textos {
-            background-color: #D9DCD6;
-            text-align: center;
-            width: 55%;
-            padding: 0px;
-            margin: auto;
-            box-shadow: rgba(0, 0, 0, 0.432) 10px 0px 14px -6px;
-        }
-
-        #fotos {
-            display: inline-block;
-            width: 400px;
-            padding: 0px 40px 0px 0px;
-            margin: auto;
-        }
-
-        #fotosunicas {
-            width: 400px;
-            padding: 0px 0px 0px 0px;
-            margin: auto;
-        }
-
-        #comentarios1 {
-            display: inline-block;
-            width: 400px;
-            padding: 0px 45px 0px 0px;
-            margin: 0px;
-            font-size: 15px;
-            font-style: italic;
-        }
-
-        #comentarios2 {
-            display: inline-block;
-            width: 400px;
-            padding: 0px 40px 0px 0px;
-            margin: 0px;
-            font-size: 15px;
-            font-style: italic;
-        }
-
-        #comentariosunicos {
-            width: 400px;
-            margin: auto;
-            padding: 0px;
-            font-size: 15px;
-            font-style: italic;
-        }
-
-        #anos80 {
-            background-color: #2F6690;
-            background-image: url('imagens/ranger1gen5.jpg');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: center center;
-            margin: auto;
-            width: 55%;
-            height: 300px;
-            padding: 0px;
-            margin: auto;
-        }
-
-        #anos90 {
-            background-color: #2F6690;
-            background-image: url('imagens/wallpaperranger2gen2.jpg');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: center center;
-            margin: auto;
-            width: 100%;
-            height: 400px;
-            padding: 0px;
-        }
-
-        #anos98 {
-            background-color: #2F6690;
-            background-image: url('imagens/ranger3gen.jpg');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: center center;
-            margin: auto;
-            width: 100%;
-            height: 400px;
-            padding: 0px;
-        }
-
-        #anos2000 {
-            background-color: #2F6690;
-            background-image: url('imagens/fordranger2005-wallpaper.png');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: center center;
-            margin: auto;
-            width: 100%;
-            height: 400px;
-            padding: 0px;
-        }
-
-        #anos2010 {
-            background-color: #2F6690;
-            background-image: url('imagens/RANGER2010WP.png');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: center center;
-            margin: auto;
-            width: 100%;
-            height: 400px;
-            padding: 0px;
-        }
-
-        #anos2012 {
-            background-color: #2F6690;
-            background-image: url('imagens/RANGER2012WP.png');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: center center;
-            margin: auto;
-            width: 100%;
-            height: 400px;
-            padding: 0px;
-        }
-
-        #anos2017 {
-            background-color: #2F6690;
-            background-image: url('imagens/RANGER2017WP3.png');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: center center;
-            margin: auto;
-            width: 100%;
-            height: 400px;
-            padding: 0px;
-        }
-
-        #textoini > p {
-            text-align: justify;
-        }
-
-        #textos > p {
-            text-align: justify;
-        }
-
-        #logo {
-            width: 99.5%; 
-            height: 40px;
-            background-image: url('imagens/logomin.fw.png');
-            background-repeat: no-repeat;
-            background-position: top right;   
-        }
-
-        blockquote.quote {
-            padding:20px 30px;
-            text-align:left;
-            background: #81c3d760 no-repeat right;
-            color: #070707;
-            font-size: 20px;line-height: 1.4;
-            font-style: italic;
-            border: 0;
-            border-radius: 10px;
-            margin: 50px 50px 50px 50px;
-            display: block;
-            box-shadow: 11px 10px 0px #16425b65;
-        }
-        footer {
-            background-color: #16425B;
-            color: white;
-            width: 100%;
-            height: 60px;
-            font-family: 'Staatliches', cursive;
-            text-align: center;
-            margin: auto;
-            padding: 10px 0px 0px 0px;
-        }
-
-
-    </style>
+    <link rel="stylesheet" href="style.css">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+</style>
 </head>
 <body>
     <header>
@@ -335,7 +58,7 @@
             
         </section>
 
-        <section id="anos80"></section>
+        <section id="anos80" class="bgfotos"></section>
 
         <section id="textos">
             <p>
@@ -360,7 +83,7 @@
                     Ford Ranger 2ª geração.
                 </p>
             </div>
-            <section id="anos90"></section>
+            <section id="anos90" class="bgfotos"></section>
             <p>
                 Até então, a Ranger era produzida na fábrica de Dearborn, Michigan, nos EUA, e importada para a América Latina. Mas isso mudou em 1997, quando a picape ganhou também nacionalidade argentina, passando a ser produzida na fábrica de General Pacheco, região metropolitana de Buenos Aires. A primeira renovação visual depois da sua chegada ao Brasil veio para a linha 1998, quase que simultaneamente com o mercado dos EUA, e aqui foi onde a Ranger teve um realce no seu lado “bruto”, passou a ser oferecida com uma legítima cabine dupla, e agora tinha opção de tração nas quatro rodas e motor Diesel para o mercado brasileiro.
             </p>
@@ -393,7 +116,7 @@
                 A próxima novidade veio em maio de 2001, quando o 2.5 a gasolina deu lugar ao totalmente novo 2.3 16V, e o 4.0 V-6 se mantinha, mas agora com arquitetura comando de válvulas no cabeçotes, o que gerou um importane aumento de 50 cv de potência, passando a entregar 210 cv. No ano seguinte era a vez da novidade nas versões Diesel: sai de cena o 2.5 e chega o 2.8 Power Stroke, que tinha como opcional a novidade do turbocompressor com turbina de geometria variável, chamada abreviadamente de VGT (de variable geometry turbine).
             </p>
             
-            <section id="anos98"></section>
+            <section id="anos98" class="bgfotos"></section>
            
             <p>
                 Mas o tempo passou, e era hora da Ranger se modernizar novamente, acompanhando a concorrência. Em agosto de 2004 chegava a linha 2005 da picape, com visual frontal e traseiro remodelados para se aproximar da então identidade visual da marca para veículos maiores, além de leves mudanças no interior. Até então, mesmo passando por uma reestilização, sua mecânica permanecia inalterada (2.3 16V e 4.0 V-6 a gasolina, além do 2.8 Diesel), mas cerca de seis meses depois a “nova” picape ficaria desatualizada, chegava o moderno 3.0 Power Stroke Electronic Diesel, mais econômico, potente e, principalmente, moderno quando comparado ao seu antecessor 2.8. O 3.0 vinha com injeção eletrônica de duto único, 16 válvulas e expressivos 163 cv, que atendia às novas normas de emissões para utilitários. O painel recebia novo quadro de instrumentos. O motor 2.3 a gasolina ganhava potência e torque, para 150 cv e 22 m.kgf, pouco depois.
@@ -420,7 +143,7 @@
                     Ford Ranger modelo 2005, cabine simples.
                 </p>
             </div>
-            <section id="anos2000"></section>
+            <section id="anos2000" class="bgfotos"></section>
                 <p>
                     Para a linha 2010 chegava a última e mais profunda reformulação visual daquela geração: frente e traseiras totalmente inéditas, detalhes como novas rodas, retrovisores e maçanetas externas e um interior revisto, com vários aprimoramentos. Com mecânica totalmente inalterada a então Nova Ranger 2010 sofreu redução de preço em todas as versões, a fim de se tornar mais competitiva, e novas configurações de versão, mas sempre mantendo as opções de tração traseira ou nas quatro rodas temporária e cabine simples ou dupla, todas equipadas somente com um câmbio manual de 5 marchas fornecido pela Eaton, sem nenhuma opção de câmbio automático.
                 </p>
@@ -443,7 +166,7 @@
                 <p>
                     Os motores não mudavam, mas a gama crescia com a XL 4×4 a diesel e a Limited 4×2 a gasolina, ambas de cabine dupla. A garantia era ampliada para três anos. A versão Sport voltava em março de 2010 com rodas de alumínio de 16 pol, faróis de neblina e molduras na cor preta. Vinha só com cabine simples e motor 2.3 a gasolina.
                 </p>
-                <section id="anos2010"></section>
+                <section id="anos2010" class="bgfotos"></section>
                 <p>
                     Mas o grande salto em todos os quesitos veio com a segunda geração, batizada de T6: totalmente inédita por aqui e projetada pela filial australiana da Ford. A picape passou a ser global, sendo destinada para todos os mercados do mundo. Maior, mais potente, confortável, segura, com espaço interno ampliado e mais volume na caçamba, a Nova Ranger 2013 chegou por aqui em meados de 2012 completamente renovada visual e mecanicamente, trazendo tecnologias e comportamentos de carros pequenos, mas mantendo a tradição de robusta e guerreira.
                 </p>
@@ -477,7 +200,7 @@
                 <p>
                     Chassi e suspensão também eram novos. A dianteira substituía as barras de torção por molas helicoidais, que favorecem um rodar mais suave. Inédito no modelo, o controle de estabilidade incluía monitoramento da inclinação da carroceria para afastar o risco de capotar, controle de velocidade em descidas, assistente de partida em rampa, controle de oscilação de reboque e assistência em frenagem de emergência. Era um bom pacote de novidades contra picapes modernas como a Chevrolet S10 de segunda geração e a Volkswagen Amarok — a Toyota Hilux ainda demoraria a ser reprojetada.
                 </p>
-                <section id="anos2012"></section>
+                <section id="anos2012" class="bgfotos"></section>
                 <p>
                     A reestilização feita na Ásia chegava ao Brasil na Ranger 2017. A frente mais imponentes usava faróis elipsoidais nas versões XLT e Limited; nesta as rodas passavam para 18 pol. O interior tinha painel e volante refeitos e sistema Sync com tela tátil de 8 pol na Limited, que também recebia seções configuráveis no quadro de instrumentos e chave programável My Key. Na Limited havia controlador da distância à frente, monitor da mesma distância com alerta de proximidade, assistentes de faróis e de faixa e monitor de pressão dos pneus.
                 </p>
@@ -519,7 +242,7 @@
                 <p>
                     Em 2023 a picape continuará a ser comercializada nas versões XL, XLS, Black, Storm, XLT e Limited. Além disso, ela contará com motores 2.2 litros e 3.2 litros, ambos a diesel. Sobre as opções de cabine, somente a versões XL terá versões de cabine simples e dupla, as demais contarão apenas com cabine dupla.
                 </p>
-                <section id="anos2017"></section>
+                <section id="anos2017" class="bgfotos"></section>
                 <p>
                     E o futuro? <br>
                     A nova geração da Ford Ranger já nasceu alinhada com as mais modernas diretrizes da indústria em termos de propulsão. Conforme adiantado pela própria marca, a picape está desde já apta a receber conjuntos eletrificados e ganhará dentro de alguns anos inédita versão híbrida. Detalhes ainda são limitados, mas tudo indica que a novidade será lançada em 2024.

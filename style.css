@@ -1,0 +1,280 @@
+@charset "UTF-8"
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body, html {
+    min-height: 100vh;
+    background-color: #3A7CA5;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-blend-mode: soft-light;
+    background-attachment: fixed;
+
+    /* 
+    shorthand:
+    
+    background: color > image > position > repeat > size > attachment 
+
+    background: #3d5c9b url("imagens/wallpaperranger-hor1.png") center center no-repeat cover fixed;
+
+    obs:. o size ainda não funciona no shorthard, declarar fora do shorthand
+    */
+}
+
+header {
+    font-variant: small-caps;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    background-color: #2F6690;
+    color: #D9DCD6;
+    width: 55%;
+    padding: 50px 0px 0px 0px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    min-width: 400px
+}
+
+section {
+    min-width: 400px;
+}
+
+#textoprevio {
+    width: 55%;
+    padding: 5px 0px 5px 0px;
+    color: #D9DCD6;
+    background-color: #16425B;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    margin: auto;
+    min-width: 400px
+}
+
+h3, p {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0px;
+    padding: 10px;
+}
+
+#destaque {
+    font-size: 20px;
+    font-style: italic;
+    margin: auto;
+    width: 55%;
+}
+
+#enfeitedestaque {
+    margin: auto;
+    padding: 0px 0px 0px 200px;
+    width: 10px;
+    height: 100px;
+    display: table-cell;
+    background-color: #2F6690;
+}
+
+#textodestaque {
+    margin: auto;
+    width: 700px;
+    height: 100px;
+    text-align: justify;
+    display: table-cell;
+    background-color: thistle;
+}
+
+#teste {
+    border: 0px 0px 50px 0px;
+    padding: 0px;
+}
+
+#textoini {
+    background-color: #D9DCD6;
+    text-align: center;
+    width: 55%;
+    padding: 0px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.432) 10px 0px 14px -6px;
+}
+
+#textos {
+    background-color: #D9DCD6;
+    text-align: center;
+    width: 55%;
+    padding: 0px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.432) 10px 0px 14px -6px;
+}
+
+#fotos {
+    display: inline-block;
+    width: 400px;
+    padding: 0px 40px 0px 0px;
+    margin: auto;
+}
+
+#fotosunicas {
+    width: 400px;
+    padding: 0px 0px 0px 0px;
+    margin: auto;
+}
+
+#comentarios1 {
+    display: inline-block;
+    width: 400px;
+    padding: 0px 45px 0px 0px;
+    margin: 0px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+#comentarios2 {
+    display: inline-block;
+    width: 400px;
+    padding: 0px 40px 0px 0px;
+    margin: 0px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+#comentariosunicos {
+    width: 400px;
+    margin: auto;
+    padding: 0px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+#anos80 {
+    background-color: #2F6690;
+    background-image: url('imagens/ranger1gen5.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    margin: auto;
+    width: 55%;
+    height: 300px;
+    padding: 0px;
+    margin: auto;
+}
+
+#anos90 {
+    background-color: #2F6690;
+    background-image: url('imagens/wallpaperranger2gen2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    padding: 0px;
+}
+
+#anos98 {
+    background-color: #2F6690;
+    background-image: url('imagens/ranger3gen.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    padding: 0px;
+}
+
+#anos2000 {
+    background-color: #2F6690;
+    background-image: url('imagens/fordranger2005-wallpaper.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    padding: 0px;
+}
+
+#anos2010 {
+    background-color: #2F6690;
+    background-image: url('imagens/RANGER2010WP.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    padding: 0px;
+}
+
+#anos2012 {
+    background-color: #2F6690;
+    background-image: url('imagens/RANGER2012WP.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    padding: 0px;
+}
+
+#anos2017 {
+    background-color: #2F6690;
+    background-image: url('imagens/RANGER2017WP3.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    padding: 0px;
+}
+
+#textoini > p {
+    text-align: justify;
+}
+
+#textos > p {
+    text-align: justify;
+}
+
+#logo {
+    width: 99.5%; 
+    height: 40px;
+    background-image: url('imagens/logomin.fw.png');
+    background-repeat: no-repeat;
+    background-position: top right;   
+}
+
+blockquote.quote {
+    padding:20px 30px;
+    text-align:left;
+    background: #81c3d760 no-repeat right;
+    color: #070707;
+    font-size: 20px;line-height: 1.4;
+    font-style: italic;
+    border: 0;
+    border-radius: 10px;
+    margin: 50px 50px 50px 50px;
+    display: block;
+    box-shadow: 11px 10px 0px #16425b65;
+}
+footer {
+    background-color: #16425B;
+    color: white;
+    width: 100%;
+    height: 60px;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    margin: auto;
+    padding: 10px 0px 0px 0px;
+}
+
